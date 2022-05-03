@@ -1,0 +1,36 @@
+.all {
+  background-color: black;
+}
+
+li {
+  display: inline-block;
+}
+
+.header {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.radio {
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+  text-align: center;
+}
+
+label {
+  margin: 5px;
+}
+
+.posters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 0px;
+  color: white;
+}
+
+img {
+  margin: 15px;
+}

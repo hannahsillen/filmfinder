@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="movies.js" id="movies"></script>    
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body class="all">
+    <div class="header">
+            <h1>Winc Film Finder</h1>
+    </div>
+    <nav class="radio" onclick="onevent(event)">
+        <input type="radio" name="filter" value="2014" id="2014"/> 
+        <label for="2014">movies from 2014 till 2022 </label>
+        <input type="radio" name="filter" value="avengers" id="avengers"/> 
+        <label for="avengers"> movies with avengers </label>
+        <input type="radio" name="filter" value="xmen" id="xmen"/>
+        <label for="xmen"> movies with the x-men </label>
+        <input type="radio" name="filter" value="princess" id="princess"/>
+        <label for="princess">movies with princess </label>
+        <input type="radio" name="filter" value="batman" id="batman"/>
+        <label for="batman"> movies with batman </label>
+    </nav>
+    <main>
+        <ul class="posters" id="posters">
+            
+        </ul>
+    </main>
+</body>
+</html>
